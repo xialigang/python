@@ -8,7 +8,7 @@ import binascii
 import requests
 import re
 from urllib.parse import quote_plus
-from sina_login.code_verification import code_verificate
+from code_verification import code_verificate
 
 # 构造 Request headers
 agent = 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0'
